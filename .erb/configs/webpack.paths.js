@@ -6,7 +6,7 @@ const dllPath = path.join(__dirname, '../dll');
 
 const srcPath = path.join(rootPath, 'src');
 const srcMainPath = path.join(srcPath, 'main');
-const srcRendererPath = path.join(srcPath, 'renderer');
+const srcRendererPath = path.join(srcPath, 'renderer/App');
 
 const buildPath = path.join(rootPath, 'build');
 const appPath = path.join(buildPath, 'app');
@@ -16,7 +16,7 @@ const srcNodeModulesPath = path.join(srcPath, 'node_modules');
 
 const distPath = path.join(appPath, 'dist');
 const distMainPath = path.join(distPath, 'main');
-const distRendererPath = path.join(distPath, 'renderer');
+const distRendererPath = path.join(distPath, 'renderer/App');
 
 const releasePath = path.join(buildPath, 'release');
 
